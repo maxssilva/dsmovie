@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dsmovie.dto.MovieDTO;
 import com.devsuperior.dsmovie.services.MovieService;
-import com.fasterxml.jackson.annotation.JacksonInject.Value;
 
 @RestController
 @RequestMapping(value =  "/movies")
